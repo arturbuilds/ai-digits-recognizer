@@ -12,7 +12,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
 model.train()
 
-epochs = 5
+epochs = 10
 
 for epoch in range(1, epochs + 1):
     for images, labels in train_loader:
